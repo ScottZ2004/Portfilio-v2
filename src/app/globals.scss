@@ -1,0 +1,36 @@
+@import url("https://use.typekit.net/hyh7maa.css");
+:root{
+  $white: #FFFAFA;
+  $black: #02353C;
+  $green: #24C985;
+  $dark-green: #19AC90;
+}
+*{
+  font-family: "trade-gothic-next", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 62.5%;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 11.5rem;
+  i{
+    font-style: italic;
+  }
+}
+
+h2{
+  font-weight: 700;
+  font-size: 5.3rem;
+
+}
+
+h3{
+  font-weight: 700;
+  font-size: 3.9rem;
+}
+
+p{
+  font-size: 2rem;
+}
