@@ -3,6 +3,7 @@
 .project{
   position: relative;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   width: 1fr;
   background: $white;
