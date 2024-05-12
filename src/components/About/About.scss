@@ -1,0 +1,15 @@
+@import "src/app/globals";
+
+#about{
+  display: flex;
+  #left{
+
+  }
+  #right{
+    border-radius: 50%;
+    img{
+      width: 100%;
+      clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 70%);
+    }
+  }
+}
