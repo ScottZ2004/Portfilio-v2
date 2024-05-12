@@ -2,7 +2,7 @@ import "./Header.scss";
 import arrow from "./../../../public/images/svg/arrow.svg"
 const Header = () => {
     return (
-        <section>
+        <section id="home">
             <h1>
                 Every <i>project</i> is a <i>puzzle</i> waiting to be <i>solved</i>
             </h1>

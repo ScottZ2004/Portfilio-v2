@@ -16,6 +16,9 @@ $dark-green: #19AC90;
 
 section{
   padding: 4rem 8rem;
+  @media screen and (max-width: 650px) {
+    padding: 1rem 2rem;
+  }
 }
 
 html{
@@ -30,6 +33,7 @@ h1{
     font-weight: 800;
     font-size: 10rem;
     color: $white;
+
   }
 }
 
