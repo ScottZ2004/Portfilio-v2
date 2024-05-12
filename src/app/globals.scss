@@ -1,15 +1,21 @@
 @import url("https://use.typekit.net/hyh7maa.css");
-:root{
-  $white: #FFFAFA;
-  $black: #02353C;
-  $green: #24C985;
-  $dark-green: #19AC90;
-}
+$white: #FFFAFA;
+$black: #02353C;
+$green: #24C985;
+$dark-green: #19AC90;
+
 *{
   font-family: "trade-gothic-next", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 62.5%;
+  color: $black;
+  margin: 0;
+  //border: red 1px solid;
+}
+
+html{
+  font-size: 1rem;
 }
 
 h1{
@@ -32,5 +38,5 @@ h3{
 }
 
 p{
-  font-size: 2rem;
+  font-size: 1rem;
 }
