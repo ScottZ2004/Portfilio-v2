@@ -14,27 +14,34 @@ $dark-green: #19AC90;
   //border: red 1px solid;
 }
 
+section{
+  padding: 4rem 8rem;
+}
+
 html{
   font-size: 1rem;
 }
 
 h1{
   font-weight: 800;
-  font-size: 11.5rem;
+  font-size: 9rem;
   i{
     font-style: italic;
+    font-weight: 800;
+    font-size: 10rem;
+    color: $white;
   }
 }
 
 h2{
   font-weight: 700;
-  font-size: 5.3rem;
+  font-size: 4rem;
 
 }
 
 h3{
   font-weight: 700;
-  font-size: 3.9rem;
+  font-size: 2.8rem;
 }
 
 p{
