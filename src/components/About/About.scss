@@ -1,15 +1,40 @@
 @import "src/app/globals";
 
 #about{
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10rem;
+  background: linear-gradient(180deg , $green, $dark-green);
   #left{
-
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    p{
+     font-size: 1.2rem;
+    }
   }
   #right{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
-    img{
-      width: 100%;
-      clip-path: polygon(0 0, 100% 0%, 100% 70%, 0 70%);
+    overflow: hidden;
+    div{
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      border-radius: 50%;
+      background: rgb(36,201,133);
+      background: linear-gradient(0deg, rgba(36,201,133,1) , rgba(25,172,144,1) 100%);
+      backdrop-filter: blur(1rem);
+      filter: blur(6.05px);
+
     }
+    img{
+      position: absolute;
+      width: 100%;
+      height: auto;
+    }
+
   }
 }
