@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "About me",
+    "nl": "Over mij"
+  },
+  "about": {
+    "top-section": {
+      "en": "Greetings! I'm Scott Zico van den Broek, a dedicated Software Development student at Mediacollege Amsterdam, where my passion for problem-solving meets my penchant for creative expression. Fascinated by the intricacies of both backend and frontend development, I find joy in navigating the complexities of database management while also reveling in the artistry of designing visually striking websites.",
+      "nl": "Hallo! Ik ben Scott Zico van den Broek, een toegewijde student Softwareontwikkeling aan het Mediacollege Amsterdam, waar mijn passie voor probleemoplossing samenkomt met mijn voorliefde voor creatieve expressie. Gefascineerd door de complexiteit van zowel backend- als frontendontwikkeling, vind ik vreugde in het navigeren door de complexiteiten van databasebeheer, terwijl ik ook geniet van de kunst van het ontwerpen van visueel opvallende websites."
+    },
+    "bottom-section": {
+      "en": "My journey in software development is driven by a dual focus: to deepen my expertise in backend development, exploring advanced techniques and technologies, while simultaneously honing my front-end skills to create seamless and immersive user experiences that captivate and inspire. Join me as I embark on this exhilarating voyage through the ever-evolving landscape of software development, fueled by curiosity, creativity, and an unwavering commitment to excellence.",
+      "nl": "Mijn reis in softwareontwikkeling wordt gedreven door een dubbele focus: het verdiepen van mijn expertise in backend-ontwikkeling, waarbij ik geavanceerde technieken en technologieën verken, terwijl ik tegelijkertijd mijn front-end vaardigheden verfijn om naadloze en meeslepende gebruikerservaringen te creëren die boeien en inspireren. Ga met me mee terwijl ik aan deze opwindende reis begin door het voortdurend veranderende landschap van softwareontwikkeling, gevoed door nieuwsgierigheid, creativiteit en een onwankelbare toewijding aan uitmuntendheid."
+    }
+  }
+}

@@ -1,9 +1,10 @@
 import "./Footer.scss";
 import logo from "../../../public/images/logo/logo_scott_diapositief.png";
-import globe from "../../../public/images/svg/globe.svg";
+import Language from "../Language/Language";
 import phone from "../../../public/images/svg/phone.svg";
 import mail from "../../../public/images/svg/mail.svg";
-const Footer = () => {
+const Footer = (props) => {
+    console.log(props);
     return (
         <section id="footer">
             <img src={logo.src} alt="logo"/>
@@ -22,7 +23,7 @@ const Footer = () => {
                 </ul>
                 <ul>
                     <h3>Language</h3>
-                    <li><a href=""></a></li>
+                    <li><Language language={props.language} setLanguage={props.setLanguage}/></li>
                 </ul>
                 <ul>
                     <h3>Contact</h3>
