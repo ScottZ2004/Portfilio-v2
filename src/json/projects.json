@@ -23,6 +23,6 @@
     "image": "/images/projects/ChristmasWishList-preview.png",
     "description": "Since diving into React, I've been eager to explore backend development with Laravel. So, I decided to blend both by crafting a Christmas wishlist app.\n\nInspired by the festive season's spirit of joy and giving, the app aims to simplify wishlist creation and sharing among friends and family. From user authentication to wishlist management, every feature is designed for a seamless user experience.\n\nThis project isn't just about coding; it's about spreading holiday cheer through technology. With React for the frontend and Laravel for the backend, I'm not just building an app—I'm creating magic during the most wonderful time of the year.",
     "title": "Christmas wishlist",
-    "website": "https://christmas-wishlist.scottzico.com/login"
+    "website": "https://christmas-wishlist.scottzico.com"
   }
 ]
