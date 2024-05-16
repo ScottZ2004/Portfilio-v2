@@ -1,9 +1,13 @@
+"use client"
 import "./Footer.scss";
 import logo from "../../../public/images/logo/logo_scott_diapositief.png";
 import globe from "../../../public/images/svg/globe.svg";
 import phone from "../../../public/images/svg/phone.svg";
 import mail from "../../../public/images/svg/mail.svg";
+import { useLanguage } from "@/context/LanguageContext";
+import LanguageDropDown from "../LanguageDropDown/LanguageDropDown";
 const Footer = () => {
+    const {language} = useLanguage();
     return (
         <section id="footer">
             <img src={logo.src} alt="logo"/>
@@ -21,8 +25,8 @@ const Footer = () => {
                     <li><a href="https://github.com/ScottZ2004" target="_blank">Github</a></li>
                 </ul>
                 <ul>
-                    <h3>Language</h3>
-                    <li><a href=""></a></li>
+                    <h3>Language: {language}</h3>
+                    <LanguageDropDown/>
                 </ul>
                 <ul>
                     <h3>Contact</h3>
