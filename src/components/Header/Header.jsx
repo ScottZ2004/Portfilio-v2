@@ -12,7 +12,7 @@ const Header = () => {
             </h1>
             <h2>Scott Zico</h2>
             <div>
-                <h3>My puzzles</h3>
+                <h3>{homeJson.myProjects[language]}</h3>
                 <img src={arrow.src} alt="arrow"/>
             </div>
         </section>
