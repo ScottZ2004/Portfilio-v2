@@ -1,12 +1,12 @@
 import "./Projects.scss";
 import Project from "./Project/Project";
-import projects from "../../json/projects.json";
+import projects from "../../json/sections/projects.json";
 const Projects = () => {
     return (
         <section id="projects">
-                {projects.map((project, index) => {
-                    return <Project key={index} project={project} />;
-                })}
+            {projects.map((project, index) => {
+                return <Project key={index} project={project} />;
+            })}
         </section>
     )
 }

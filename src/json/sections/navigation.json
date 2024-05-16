@@ -1,0 +1,30 @@
+[
+    {
+        "title": {
+            "en": "Home",
+            "nl": "Hoofdscherm"
+        },
+        "link": "#home"
+    },
+    {
+        "title": {
+            "en": "Projects",
+            "nl": "Projecten"
+        },
+        "link": "#projects"
+    },
+    {
+        "title": {
+            "en": "About me",
+            "nl": "Over mij"
+        },
+        "link": "#about"
+    },
+    {
+        "title": {
+            "en": "Experience",
+            "nl": "Ervaring"
+        },
+        "link": "#experience"
+    }
+]

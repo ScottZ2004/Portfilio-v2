@@ -1,0 +1,65 @@
+[
+    {
+        "title": {
+            "en": "Navigate",
+            "nl": "Navigeer"
+        },
+        "links": "{navigation.json}"
+    },
+    {
+        "title": {
+            "en": "Relevant",
+            "nl": "Relevant"
+        },
+        "links": [
+            {
+                "title": {
+                    "en": "Linkedin",
+                    "nl": "Linkedin"
+                },
+                "link": "https://www.linkedin.com/in/scottzico/"
+            },
+            {
+                "title": {
+                    "en": "Github",
+                    "nl": "Github"
+                },
+                "link": "https://github.com/ScottZ2004"
+            }
+        ]
+    },
+    {
+        "title": {
+            "en": "Language",
+            "nl": "Taal"
+        },
+        "links": "~languageDropDown~"
+            
+        
+    },
+    {
+        "title": {
+            "en": "Contact",
+            "nl": "Contact"
+        },
+        "links": [
+            {
+                "title": {
+                    "en": "+31 06 25082193",
+                    "nl": "+31 06 25082193"
+                },
+                "link": "tel:+316 25082193",
+                "img": "/images/svg/phone.svg"
+            },
+            {
+                "title": {
+                    "en": "scottzico2004@gmail.com",
+                    "nl": "scottzico2004@gmail.com"
+                },
+                "link": "mailto:scottzico2004@gmail.com",
+                "img": "/images/svg/mail.svg"
+            }
+        ]
+    }
+]
+   
