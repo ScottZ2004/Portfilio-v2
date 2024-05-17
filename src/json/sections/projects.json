@@ -1,6 +1,9 @@
 [
   {
-    "type": "School",
+    "type": {
+      "en": "School",
+      "nl": "School"
+    },
     "github": "https://github.com/ScottZ2004/Collezione",
     "skills": [
       "Laravel",
@@ -8,12 +11,21 @@
     ],
     "bgColor": "#FF7E1D",
     "image": "/images/projects/collezione-preview.png",
-    "description": "In my third year of school, I faced an exhilarating challenge: the frontend exam. Tasked with creating a collection web app in React, I drew inspiration from the Headspace website for its design, while centering the collection around roller coasters. The project, aptly named Collezione also involved developing a Laravel backend API to facilitate seamless interaction with the collection, adding features like user authentication and data validation. Throughout the process, I encountered and overcame various challenges, honing my skills in both frontend and backend development. The result was Collezione - a captivating web application that combined sleek design with thrilling content, showcasing my proficiency as a developer.",
-    "title": "Collezione",
+    "description": {
+      "en": "In my third year of school, I faced an exhilarating challenge: the frontend exam. Tasked with creating a collection web app in React, I drew inspiration from the Headspace website for its design, while centering the collection around roller coasters. The project, aptly named Collezione also involved developing a Laravel backend API to facilitate seamless interaction with the collection, adding features like user authentication and data validation. Throughout the process, I encountered and overcame various challenges, honing my skills in both frontend and backend development. The result was Collezione - a captivating web application that combined sleek design with thrilling content, showcasing my proficiency as a developer.",
+      "nl" : "In mijn derde jaar op school stond ik voor een opwindende uitdaging: het frontend examen. Met de taak om een verzamelwebapplicatie in React te creëren, haalde ik inspiratie uit de Headspace-website voor het ontwerp, terwijl ik de verzameling rond achtbanen centreerde. Het project, passend genaamd Collezione, omvatte ook het ontwikkelen van een Laravel backend API om naadloze interactie met de verzameling mogelijk te maken, met functies zoals gebruikersauthenticatie en gegevensvalidatie. Gedurende het proces kwam ik verschillende uitdagingen tegen die ik overwon, waarbij ik mijn vaardigheden in zowel frontend- als backend-ontwikkeling aanscherpte. Het resultaat was Collezione - een boeiende webapplicatie die strak ontwerp combineerde met spannende inhoud, waarbij mijn bekwaamheid als ontwikkelaar werd getoond."
+    },
+    "title": {
+      "en": "Collezione",
+      "nl": "Collezione"
+    },
     "website": "https://collezione.scottzico.com/"
   },
   {
-    "type": "Personal",
+    "type": {
+      "en": "Personal",
+      "nl": "Persoonlijk"
+    },
     "github": "https://github.com/ScottZ2004/Christmas-Wishlist",
     "skills": [
       "Laravel",
@@ -21,8 +33,14 @@
     ],
     "bgColor": "#2D6D5C",
     "image": "/images/projects/ChristmasWishList-preview.png",
-    "description": "Since diving into React, I've been eager to explore backend development with Laravel. So, I decided to blend both by crafting a Christmas wishlist app.\n\nInspired by the festive season's spirit of joy and giving, the app aims to simplify wishlist creation and sharing among friends and family. From user authentication to wishlist management, every feature is designed for a seamless user experience.\n\nThis project isn't just about coding; it's about spreading holiday cheer through technology. With React for the frontend and Laravel for the backend, I'm not just building an app—I'm creating magic during the most wonderful time of the year.",
-    "title": "Christmas wishlist",
+    "description": {
+      "en": "Since diving into React, I've been eager to explore backend development with Laravel. So, I decided to blend both by crafting a Christmas wishlist app.\n\nInspired by the festive season's spirit of joy and giving, the app aims to simplify wishlist creation and sharing among friends and family. From user authentication to wishlist management, every feature is designed for a seamless user experience.\n\nThis project isn't just about coding; it's about spreading holiday cheer through technology. With React for the frontend and Laravel for the backend, I'm not just building an app—I'm creating magic during the most wonderful time of the year.",
+      "nl": "Sinds ik me heb ondergedompeld in React, ben ik enthousiast om backend-ontwikkeling te verkennen met Laravel. Dus besloot ik beide te combineren door een Kerstverlanglijstjes app te maken. Geïnspireerd door de feestelijke sfeer van vreugde en geven, heeft de app tot doel het proces van het maken en delen van verlanglijstjes onder vrienden en familie te vereenvoudigen. Van gebruikersauthenticatie tot het beheer van verlanglijstjes, elke functie is ontworpen om een naadloze gebruikerservaring te bieden. Dit project gaat niet alleen over coderen; het gaat erom vakantieplezier te verspreiden via technologie. Met React voor de frontend en Laravel voor de backend, bouw ik niet alleen een app - ik creëer magie tijdens de mooiste tijd van het jaar."
+    },
+    "title": {
+      "en": "Christmas wishlist",
+      "nl": "Kerstverlanglijstjes"
+    },
     "website": "https://christmas-wishlist.scottzico.com"
   }
 ]
