@@ -26,5 +26,12 @@
             "nl": "Ervaring"
         },
         "link": "#experience"
+    },
+    {
+        "title": {
+            "en": "Let's get in touch",
+            "nl": "Laten we contact opnemen"
+        },
+        "link": "mailto:scottzico2004@gmail.com"
     }
 ]
