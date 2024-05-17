@@ -1,5 +1,5 @@
 import "./Project.scss";
-import github from "../../../../public/images/svg/github.svg";
+import github from "&/images/svg/github.svg";
 
 const Project = (props) => {
     const topStyle = {

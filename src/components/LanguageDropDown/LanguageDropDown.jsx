@@ -1,7 +1,7 @@
 "use client";
 import { useLanguage } from "@/context/LanguageContext";
 import "./LanguageDropDown.scss";
-import globe from "../../../public/images/svg/globe.svg";
+import globe from "&/images/svg/globe.svg";
 
 const LanguageDropDown = () => {
     const {setLanguage, language} = useLanguage();

@@ -1,7 +1,7 @@
 "use client";
 import "./Navigation.scss";
-import logo from "../../../public/images/logo/logo_scott_1.png";
-import naviagtionJson from "../../json/sections/navigation.json";
+import logo from "&/images/logo/logo_scott_1.png";
+import naviagtionJson from "@/json/sections/navigation.json";
 import { useLanguage } from "@/context/LanguageContext";
 function Navigation() {
     const {language} = useLanguage()

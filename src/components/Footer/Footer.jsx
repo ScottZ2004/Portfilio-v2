@@ -1,13 +1,11 @@
 "use client"
 import "./Footer.scss";
-import logo from "../../../public/images/logo/logo_scott_diapositief.png";
-import phone from "../../../public/images/svg/phone.svg";
-import mail from "../../../public/images/svg/mail.svg";
+import logo from "&/images/logo/logo_scott_diapositief.png";
 import { useLanguage } from "@/context/LanguageContext";
-import LanguageDropDown from "../LanguageDropDown/LanguageDropDown";
-import navigateJson from "../../json/sections/navigation.json"
+import LanguageDropDown from "@/components/LanguageDropDown/LanguageDropDown";
+import navigateJson from "@/json/sections/navigation.json"
 
-import footerJson from "../../json/sections/footer.json";
+import footerJson from "@/json/sections/footer.json";
 
 const Footer = () => {
     const {language} = useLanguage();
@@ -19,7 +17,6 @@ const Footer = () => {
                 {footerJson.map((item, index) => {
                     let children = [];
                     let child = null
-                    //str. substring(0, 1), for last character, use str. substring(str. length – 1)
                     if(Array.isArray(item.links)){
                         children = item.links
                     }
@@ -30,7 +27,7 @@ const Footer = () => {
                         if(firstChar === "{" && lastChar === "}"){
                             if(file === "navigation.json")
                                 children = navigateJson;
-                            console.log()
+                            
                         }
                         if(firstChar === "~" && lastChar === "~"){
                             if(file === "languageDropDown")
@@ -42,7 +39,8 @@ const Footer = () => {
                             <h3>{item.title[language]}</h3>
                             { child }
                             { children.map((childItem, childIndex)=>{
-                                return (
+                                if(childItem.forFooter){
+                                    return (
                                     <li key={childIndex}>
                                         {childItem.img ? (
                                             <a href={childItem.link}>
@@ -54,6 +52,7 @@ const Footer = () => {
                                         )}
                                     </li>
                                 );
+                                }
                             }) }
                         </ul>
                     )
