@@ -16,6 +16,9 @@ $dark-green: #19AC90;
 
 section{
   padding: 4rem 8rem;
+  @media screen and (max-width: 1070px) {
+    padding: 2rem 4rem;
+  }
   @media screen and (max-width: 650px) {
     padding: 1rem 2rem;
   }
@@ -28,24 +31,60 @@ html{
 h1{
   font-weight: 800;
   font-size: 9rem;
+  padding-top: 3rem;
   i{
     font-style: italic;
     font-weight: 800;
-    font-size: 10rem;
+    font-size: 9rem;
     color: $white;
 
+  }
+  @media screen and (max-width: 1270px) {
+    font-size: 7rem;
+    i{
+      font-size: 7rem;
+    }
+  }
+  @media screen and (max-width: 1070px) {
+    font-size: 5rem;
+    i{
+      font-size: 5rem;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    font-size: 4rem;
+    i{
+      font-size: 4rem;
+    }
+  }
+  @media screen and (max-width: 730px) {
+    font-size: 3rem;
+    i{
+      font-size: 3rem;
+    }
   }
 }
 
 h2{
   font-weight: 700;
   font-size: 4rem;
-
+  @media screen and (max-width: 1270px) {
+    font-size: 3rem;
+  }
+  @media screen and (max-width: 1070px) {
+    font-size: 2.5rem;
+  }
 }
 
 h3{
   font-weight: 700;
   font-size: 2.8rem;
+  @media screen and (max-width: 1270px) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 1070px) {
+    font-size: 2rem;
+  }
 }
 
 p{

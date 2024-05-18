@@ -10,7 +10,7 @@ const Header = () => {
         <section id="home">
             <h1 dangerouslySetInnerHTML={{__html: homeJson.quote[language]}}>
             </h1>
-            <h2>Scott Zico</h2>
+            <h2>- Scott Zico</h2>
             <div>
                 <h3>{homeJson.myProjects[language]}</h3>
                 <img src={arrow.src} alt="arrow"/>
