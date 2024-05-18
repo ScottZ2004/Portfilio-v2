@@ -16,9 +16,11 @@ const Footer = () => {
             <div>
                 {footerJson.map((item, index) => {
                     let children = [];
-                    let child = null
+                    let child = null;
+                    let forFooter = false;
                     if(Array.isArray(item.links)){
-                        children = item.links
+                        children = item.links;
+                        forFooter = true;
                     }
                     else if(typeof item.links === "string"){
                         const firstChar = item.links.substring(0,1);
@@ -39,10 +41,10 @@ const Footer = () => {
                             <h3>{item.title[language]}</h3>
                             { child }
                             { children.map((childItem, childIndex)=>{
-                                if(childItem.forFooter){
+                                if(childItem.forFooter || forFooter ){
                                     return (
                                     <li key={childIndex}>
-                                        {childItem.img ? (
+                                        {childItem.img? (
                                             <a href={childItem.link}>
                                                 <img src={childItem.img} alt={childItem.title[language]} />
                                                 {childItem.title[language]}
