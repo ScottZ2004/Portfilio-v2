@@ -1,6 +1,6 @@
 import "./globals.scss";
-import Home from "../pages/home/Home";
-import logo from "../../public/images/logo/logo_scott_1 klein.png"
+import Home from "@/pages/home/Home";
+import logo from "&/images/logo/logo_scott_1 klein.png"
 export default function RootLayout() {
   return (
     <html lang="en">
@@ -10,7 +10,7 @@ export default function RootLayout() {
     </head>
 
     <body>
-    <Home/>
+      <Home/>
     </body>
     </html>
   );

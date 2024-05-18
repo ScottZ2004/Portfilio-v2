@@ -1,0 +1,42 @@
+[
+    {
+        "title": {
+            "en": "Home",
+            "nl": "Hoofdscherm"
+        },
+        "link": "#home",
+        "forFooter": true
+    },
+    {
+        "title": {
+            "en": "Projects",
+            "nl": "Projecten"
+        },
+        "link": "#projects",
+        "forFooter": true
+    },
+    {
+        "title": {
+            "en": "About me",
+            "nl": "Over mij"
+        },
+        "link": "#about",
+        "forFooter": true
+    },
+    {
+        "title": {
+            "en": "Experience",
+            "nl": "Ervaring"
+        },
+        "link": "#experience",
+        "forFooter": true
+    },
+    {
+        "title": {
+            "en": "Let's get in touch",
+            "nl": "Laten we contact opnemen"
+        },
+        "link": "mailto:scottzico2004@gmail.com",
+        "forFooter": false
+    }
+]

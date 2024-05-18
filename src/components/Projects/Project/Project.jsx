@@ -1,12 +1,15 @@
+"use client";
 import "./Project.scss";
-import github from "../../../../public/images/svg/github.svg";
+import github from "&/images/svg/github.svg";
+import { useLanguage } from "@/context/LanguageContext";
 
 const Project = (props) => {
+    const {language} = useLanguage();
     const topStyle = {
         backgroundColor: props.project.bgColor
     };
-    const description = props.project.description;
-    const title = props.project.title;
+    const description = props.project.description[language];
+    const title = props.project.title[language];
 
     const isTitle = (index) => {
         const sub = description.substr(index, title.length).toLowerCase();
@@ -37,13 +40,13 @@ const Project = (props) => {
     return (
         <div className="project">
             <div className="tag">
-                {props.project.type}
+                {props.project.type[language]}
             </div>
             <div id="top" style={topStyle}>
                 <img src={props.project.image} alt="project"/>
             </div>
             <div id="middle">
-                <h3>{props.project.title}</h3>
+                <h3>{props.project.title[language]}</h3>
                 <p>
                     {renderDescription()}
                 </p>

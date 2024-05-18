@@ -1,0 +1,14 @@
+{
+    "title": {
+        "en": "About me",
+        "nl": "Over mij"
+    },
+    "description1": {
+        "en": "Greetings! I'm Scott Zico van den Broek, a dedicated Software Development student at Mediacollege Amsterdam, where my passion for problem-solving meets my penchant for creative expression. Fascinated by the intricacies of both backend and frontend development, I find joy in navigating the complexities of database management while also reveling in the artistry of designing visually striking websites.",
+        "nl": "Gegroet! Ik ben Scott Zico van den Broek, een toegewijde student Softwareontwikkeling aan het Mediacollege Amsterdam, waar mijn passie voor probleemoplossing samenkomt met mijn voorliefde voor creatieve expressie. Gefascineerd door de fijnheden van zowel backend- als frontend-ontwikkeling, vind ik plezier in het navigeren door de complexiteit van databasebeheer terwijl ik ook geniet van de kunst van het ontwerpen van visueel indrukwekkende websites."
+    },
+    "description2": {
+        "en": "My journey in software development is driven by a dual focus: to deepen my expertise in backend development, exploring advanced techniques and technologies, while simultaneously honing my front-end skills to create seamless and immersive user experiences that captivate and inspire. Join me as I embark on this exhilarating voyage through the ever-evolving landscape of software development, fueled by curiosity, creativity, and an unwavering commitment to excellence.",        
+        "nl": "Mijn reis in softwareontwikkeling wordt gedreven door een dubbele focus: mijn expertise in backend-ontwikkeling verdiepen door geavanceerde technieken en technologieën te verkennen, terwijl ik tegelijkertijd mijn front-end vaardigheden aanscherp om naadloze en meeslepende gebruikerservaringen te creëren die boeien en inspireren. Vergezeld me op deze opwindende tocht door het steeds veranderende landschap van softwareontwikkeling, gedreven door nieuwsgierigheid, creativiteit en een niet-aflatende inzet voor excellentie."
+    }
+}

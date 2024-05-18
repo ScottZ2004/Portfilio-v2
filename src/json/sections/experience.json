@@ -1,0 +1,50 @@
+[
+  {
+    "title": "HTML, CSS, Javascript",
+    "description": {
+      "nl": "Sinds november 2020 ben ik gepassioneerd bezig met HTML, CSS en JavaScript. Deze drie talen vormen de kern van mijn werk. Met HTML leg ik de structuur van mijn webpagina's vast, met CSS voeg ik stijl toe en met JavaScript voeg ik interactiviteit toe. Mijn ervaring groeit elke dag en ik geniet ervan om deze tools te gebruiken om digitale ervaringen te creëren die zowel functioneel als esthetisch aantrekkelijk zijn.",
+      "en": "Since November 2020, I've been passionately working with HTML, CSS, and JavaScript. These three languages form the core of my work. With HTML, I establish the structure of my webpages, with CSS, I add style, and with JavaScript, I add interactivity. My experience grows every day, and I enjoy using these tools to create digital experiences that are both functional and aesthetically appealing."
+    },
+    "image": "images/experience/html-css-js.png"
+  },
+  {
+    "title": "Laravel",
+    "description":{
+      "en": "Since February 2022, I've been diving into Laravel with enthusiasm. Laravel is my go-to framework for building robust and efficient web applications. With its elegant syntax and powerful features, Laravel streamlines the development process, allowing me to focus on crafting seamless user experiences and implementing complex functionalities. My journey with Laravel has been one of continuous learning and experimentation, and I'm excited to continue leveraging its capabilities to bring innovative web solutions to life.",
+      "nl": "Since February 2022, I've enthusiastically immersed myself in Laravel. Laravel is my preferred framework for constructing robust and efficient web applications. Its refined syntax and robust features streamline the development process, enabling me to concentrate on crafting seamless user experiences and implementing sophisticated functionalities. My experience with Laravel has been marked by continuous learning and experimentation, and I'm eager to continue harnessing its capabilities to breathe life into innovative web solutions."
+    },
+    "image": "images/experience/laravel-logo.svg"
+  },
+  {
+    "title": "PHP",
+    "description": {
+      "en": "Since September 2021, PHP has been a cornerstone of my development journey. This versatile scripting language has empowered me to create dynamic and interactive web applications with ease. From handling user input to connecting with databases, PHP has proven invaluable in building robust and scalable solutions. As I continue to deepen my understanding of PHP, I'm constantly discovering new ways to optimize performance, enhance security, and streamline development workflows. It's an essential tool in my arsenal, allowing me to turn ideas into reality on the web.",
+      "nl": "Sinds september 2021 is PHP een hoeksteen van mijn ontwikkelingsreis geweest. Deze veelzijdige scripttaal heeft me in staat gesteld om met gemak dynamische en interactieve webapplicaties te creëren. Van het verwerken van gebruikersinvoer tot het verbinden met databases, PHP heeft zijn onschatbare waarde bewezen bij het bouwen van robuuste en schaalbare oplossingen. Terwijl ik mijn begrip van PHP blijf verdiepen, ontdek ik voortdurend nieuwe manieren om de prestaties te optimaliseren, de beveiliging te verbeteren en de ontwikkelingsworkflows te stroomlijnen. Het is een essentieel instrument in mijn arsenaal, waardoor ik ideeën kan omzetten in realiteit op het web."
+    },
+    "image": "images/experience/php-logo.svg"
+  },
+  {
+    "title": "Wordpress",
+    "description": {
+      "en": "Since November 2021, my focus has been on WordPress, particularly in the realm of plugin development. WordPress serves as a robust platform for website creation, and my specialization in plugins has allowed me to delve deeper into its capabilities. Crafting bespoke plugins has been a journey of exploration, where I've had the opportunity to address diverse client needs and elevate WordPress websites with custom functionalities. From implementing complex features to enhancing user engagement, each plugin project has been a chance to innovate and refine my skills. As I continue to navigate the dynamic landscape of WordPress development, I look forward to leveraging its flexibility and scalability to deliver tailored solutions that exceed expectations.",
+      "nl": "Since November 2021, my primary focus has been on WordPress, particularly in the domain of plugin development. WordPress stands as a robust platform for website creation, and my specialization in plugins has enabled me to delve deeper into its capabilities. Crafting customized plugins has been an exploratory journey, offering me the chance to address a wide range of client needs and enhance WordPress websites with tailored functionalities. From implementing intricate features to boosting user engagement, each plugin project has provided an opportunity for innovation and skill refinement. As I continue to navigate the dynamic WordPress development landscape, I eagerly anticipate leveraging its flexibility and scalability to deliver bespoke solutions that surpass expectations."
+    },
+    "image": "images/experience/wordpress.svg"
+  },
+  {
+    "title": "Python",
+    "description": {
+      "en": "Since September 2020, Python has been my gateway into the world of programming. Learning its basics laid a solid foundation for my coding journey. Python's simplicity and versatility have made it an ideal starting point, enabling me to grasp fundamental concepts while exploring various applications, from web development to data analysis. As I continue to expand my skills, Python remains my go-to language for its intuitive syntax and extensive libraries, allowing me to bring my ideas to life with ease and efficiency.",
+      "nl": "Sinds september 2020 is Python mijn toegangspoort tot de wereld van programmeren geweest. Het leren van de basis legde een solide basis voor mijn programmeeravontuur. De eenvoud en veelzijdigheid van Python hebben het een ideaal startpunt gemaakt, waardoor ik fundamentele concepten kon begrijpen terwijl ik verschillende toepassingen verkende, van webontwikkeling tot gegevensanalyse. Terwijl ik mijn vaardigheden blijf uitbreiden, blijft Python mijn favoriete taal vanwege zijn intuïtieve syntaxis en uitgebreide bibliotheken, waardoor ik mijn ideeën met gemak en efficiëntie tot leven kan brengen."
+    },
+    "image": "images/experience/python-logo.svg"
+  },
+  {
+    "title": "React",
+    "description": {
+      "en": "Since September 2022, React has been my digital playground, where I discover new possibilities and push boundaries. With React, I build dynamic and interactive user interfaces, from complex web applications to engaging user experiences. With every line of code, I grow in skill and confidence, while React continues to surprise me with its flexibility and power. In short, React is my reliable companion on my journey of creation and innovation.",
+      "nl": "Sinds september 2022 is React mijn digitale speeltuin geweest, waar ik nieuwe mogelijkheden ontdek en grenzen verleg. Met React bouw ik dynamische en interactieve gebruikersinterfaces, van complexe webapplicaties tot boeiende gebruikerservaringen. Met elke regel code groei ik in vaardigheid en vertrouwen, terwijl React me blijft verrassen met zijn flexibiliteit en kracht. Kortom, React is mijn betrouwbare metgezel op mijn reis van creatie en innovatie."
+    },
+    "image": "images/experience/react-icon.svg"
+  }
+]

@@ -1,14 +1,18 @@
+"use client"
 import "./Header.scss";
-import arrow from "./../../../public/images/svg/arrow.svg"
+import arrow from "&/images/svg/arrow.svg";
+import homeJson from "@/json/sections/home.json";
+import { useLanguage } from "@/context/LanguageContext";
+
 const Header = () => {
+    const {language} = useLanguage()
     return (
         <section id="home">
-            <h1>
-                Every <i>project</i> is a <i>puzzle</i> waiting to be <i>solved</i>
+            <h1 dangerouslySetInnerHTML={{__html: homeJson.quote[language]}}>
             </h1>
             <h2>Scott Zico</h2>
             <div>
-                <h3>My puzzles</h3>
+                <h3>{homeJson.myProjects[language]}</h3>
                 <img src={arrow.src} alt="arrow"/>
             </div>
         </section>

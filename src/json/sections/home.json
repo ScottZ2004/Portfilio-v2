@@ -1,0 +1,10 @@
+{
+    "quote": {
+        "en": "Every <i>project</i> is a <i>puzzle</i> waiting to be <i>solved</i>",
+        "nl": "Elk <i>project</i> is een <i>puzzel</i> die wacht om <i>opgelost</i> te worden"
+    },
+    "myProjects":{
+        "en": "My puzzles",
+        "nl": "Mijn puzzles"
+    }
+}
