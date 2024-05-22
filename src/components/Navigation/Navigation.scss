@@ -1,10 +1,8 @@
 @import 'src/app/globals.scss';
 header{
-  position: fixed;
   z-index: 2;
-  width: 97.5vw;
   background: $green;
-  padding: 1rem;
+  padding: 1rem 4rem;
   display: flex;
   justify-content: space-between;
   img{
@@ -30,5 +28,17 @@ header{
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
     }
+    @media screen and (max-width: 860px) {
+      display: none;
+    }
+  }
+  div{
+    display: none;
+    @media screen and (max-width: 860px) {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 860px) {
+    padding: 1rem 2rem;
   }
 }
