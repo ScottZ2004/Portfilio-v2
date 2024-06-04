@@ -2,42 +2,55 @@
 header{
   z-index: 2;
   background: $green;
-  padding: 1rem 4rem;
-  display: flex;
-  justify-content: space-between;
-  img{
-    width: 5rem;
-    height: auto;
-  }
-  ul{
+  position: fixed;
+  min-width: 100vw;
+  div{
+    padding: 1rem 4rem;
     display: flex;
-    gap: 2rem;
-    li{
-      font-size: 2rem;
-      list-style: none;
-      align-items: center;
+    justify-content: space-between;
+    img{
+      width: 5rem;
+      height: auto;
+    }
+    #standard{
       display: flex;
-      a{
-        text-decoration: none;
-        color: $black;
+      gap: 2rem;
+      li{
+        font-size: 2rem;
+        list-style: none;
+        align-items: center;
+        display: flex;
+        a{
+          text-decoration: none;
+          color: $black;
+        }
+      }
+      li:last-child a{
+        color: $white;
+        background: $black;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+      }
+      @media screen and (max-width: 860px) {
+        display: none;
       }
     }
-    li:last-child a{
-      color: $white;
-      background: $black;
-      padding: 0.5rem 1rem;
-      border-radius: 0.5rem;
-    }
-    @media screen and (max-width: 860px) {
+    div{
       display: none;
+      width: 20rem;
+      height: 20rem;
+      @media screen and (max-width: 860px) {
+        display: flex;
+        justify-self: end;
+      }
     }
   }
-  div{
-    display: none;
-    @media screen and (max-width: 860px) {
-      display: block;
+  #hamburger{
+    li{
+      font-size: 2rem;
     }
   }
+  
   @media screen and (max-width: 860px) {
     padding: 1rem 2rem;
   }

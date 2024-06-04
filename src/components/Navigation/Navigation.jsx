@@ -13,25 +13,35 @@ function Navigation() {
     }
     return (
         <header>
-            <a href="#home"><img src={logo.src} alt="logo"/></a>
-            <ul>
-                {naviagtionJson.map((navigation, index) => {
-                    return( <li key={index}><a href={navigation.link}>{navigation.title[language]}</a></li>)
-                })}
-            </ul>
             <div>
-                <HamburgerMenu
-                    isOpen={isOpen}
-                    menuClicked={handleClick}
-                    animationDuration={0.5}
-                    borderRadius={9}
-                    strokeWidth={4}
-                    width={40}
-                    height={32}
-                    rotate={0}
-                    color="#02353C"
-                />
+                <a href="#home"><img src={logo.src} alt="logo"/></a>
+                <ul id="standard">
+                    {naviagtionJson.map((navigation, index) => {
+                        return( <li key={index}><a href={navigation.link}>{navigation.title[language]}</a></li>)
+                    })}
+                </ul>
+                <div>
+                    <HamburgerMenu
+                        isOpen={isOpen}
+                        menuClicked={handleClick}
+                        animationDuration={0.5}
+                        borderRadius={9}
+                        strokeWidth={4}
+                        width={8}
+                        height={8}
+                        rotate={0}
+                        color="#02353C"
+                    />
+                </div>
             </div>
+            
+            {isOpen ? (
+                <ul id="hamburger">
+                    {naviagtionJson.map((navigation, index) => {
+                    return( <li key={index}><a href={navigation.link}>{navigation.title[language]}</a></li>)
+                    })}
+                </ul>
+            ) : null}
         </header>
     );
 }
