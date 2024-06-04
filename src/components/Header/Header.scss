@@ -15,6 +15,10 @@
     display: flex;
     justify-content: end;
     padding-right: 10rem;
+
+    @media screen and (max-width: 1070px) {
+      padding-right: 5rem;
+    }
   }
   div {
     display: flex;
@@ -31,6 +35,16 @@
       width: auto;
       position: absolute;
       bottom: -5.25rem;
+      @media screen and (max-width: 1070px) {
+        height: 8rem;
+        bottom: -4.2rem;
+        
+      }
+      @media screen and (max-width: 650px) {
+        height: 6rem;
+        bottom: -3.1rem;
+        
+      }
     }
   }
 }

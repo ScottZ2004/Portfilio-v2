@@ -36,4 +36,19 @@
       font-size: 0.8rem;
     }
   }
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    span{
+      display: none;
+    }
+    img{
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      height: 2rem;
+      width: auto;
+    }
+  }
 }

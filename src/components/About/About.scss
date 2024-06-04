@@ -3,7 +3,7 @@
 #about{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 10rem;
+  gap: 8rem;
   background: linear-gradient(180deg , $green, $dark-green);
   #left{
     display: flex;
@@ -19,6 +19,9 @@
     height: 25rem;
     border-radius: 50%;
     overflow: hidden;
+    display: flex;
+    align-self: center;
+    justify-self: center;
     div{
       position: absolute;
       width: inherit;
@@ -34,6 +37,15 @@
       width: 100%;
       height: auto;
     }
-
+    @media screen and (max-width: 1220px) {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+  @media screen and (max-width: 1430px) {
+    gap: 4rem;
+  }
+  @media screen and (max-width: 1220px) {
+    grid-template-columns: 1fr;
   }
 }
