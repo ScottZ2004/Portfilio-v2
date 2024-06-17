@@ -1,7 +1,7 @@
 "use client"
 import "./Header.scss";
 import arrow from "&/images/svg/arrow.svg";
-import homeJson from "@/json/sections/home.json";
+import homeJson from "&/json/sections/home.json";
 import { useLanguage } from "@/context/LanguageContext";
 
 const Header = () => {

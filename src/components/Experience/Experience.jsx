@@ -1,6 +1,6 @@
 import "./Experience.scss";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
-import experience from "@/json/sections/experience.json";
+import experience from "&/json/sections/experience.json";
 import Project from "@/components/Projects/Project/Project";
 const Experience = () => {
     return (

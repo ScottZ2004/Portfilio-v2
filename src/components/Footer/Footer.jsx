@@ -3,9 +3,9 @@ import "./Footer.scss";
 import logo from "&/images/logo/logo_scott_diapositief.png";
 import { useLanguage } from "@/context/LanguageContext";
 import LanguageDropDown from "@/components/LanguageDropDown/LanguageDropDown";
-import navigateJson from "@/json/sections/navigation.json"
+import navigateJson from "&/json/sections/navigation.json"
 
-import footerJson from "@/json/sections/footer.json";
+import footerJson from "&/json/sections/footer.json";
 
 const Footer = () => {
     const {language} = useLanguage();

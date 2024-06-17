@@ -1,7 +1,7 @@
 "use client"
 import portrait from "&/images/portrait.png";
 import "./About.scss";
-import aboutJson from "@/json/sections/about.json"
+import aboutJson from "&/json/sections/about.json"
 import { useLanguage } from "@/context/LanguageContext";
 
 const About = () => {
