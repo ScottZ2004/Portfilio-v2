@@ -3,8 +3,10 @@ header{
   z-index: 2;
   background: $green;
   position: fixed;
+  right: 0;
+  left: 0;
   min-width: 100vw;
-  div{
+  #navigation{
     padding: 1rem 4rem;
     display: flex;
     justify-content: space-between;
@@ -35,23 +37,23 @@ header{
         display: none;
       }
     }
-    div{
+    #hamburger-container{
       display: none;
-      width: 20rem;
-      height: 20rem;
+      width: 10rem;
       @media screen and (max-width: 860px) {
         display: flex;
-        justify-self: end;
+        justify-content: end;
       }
     }
   }
   #hamburger{
+    padding: 1rem 2rem;
     li{
       font-size: 2rem;
+      list-style-type: none;
+      a{
+        text-decoration: none;
+      }
     }
-  }
-  
-  @media screen and (max-width: 860px) {
-    padding: 1rem 2rem;
   }
 }

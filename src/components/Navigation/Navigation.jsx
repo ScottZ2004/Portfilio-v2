@@ -3,7 +3,7 @@ import "./Navigation.scss";
 import logo from "&/images/logo/logo_scott_1.png";
 import naviagtionJson from "@/json/sections/navigation.json";
 import { useLanguage } from "@/context/LanguageContext";
-import HamburgerMenu from "react-hamburger-menu";
+import { Squash as Hamburger } from 'hamburger-react'
 import { useState } from "react";
 function Navigation() {
     const {language} = useLanguage()
@@ -13,32 +13,29 @@ function Navigation() {
     }
     return (
         <header>
-            <div>
+            <div id="navigation">
                 <a href="#home"><img src={logo.src} alt="logo"/></a>
                 <ul id="standard">
                     {naviagtionJson.map((navigation, index) => {
                         return( <li key={index}><a href={navigation.link}>{navigation.title[language]}</a></li>)
                     })}
                 </ul>
-                <div>
-                    <HamburgerMenu
-                        isOpen={isOpen}
-                        menuClicked={handleClick}
-                        animationDuration={0.5}
-                        borderRadius={9}
-                        strokeWidth={4}
-                        width={8}
-                        height={8}
-                        rotate={0}
+                <div id="hamburger-container">
+                    <Hamburger
+                        toggled={isOpen}
+                        toggle={handleClick}
                         color="#02353C"
+                        size={48}
+                        rounded
+                        distance="md"
+                        hideOutline={false}
                     />
                 </div>
             </div>
-            
             {isOpen ? (
                 <ul id="hamburger">
                     {naviagtionJson.map((navigation, index) => {
-                    return( <li key={index}><a href={navigation.link}>{navigation.title[language]}</a></li>)
+                    return( <li key={index}><a onClick={handleClick} href={navigation.link}>{navigation.title[language]}</a></li>)
                     })}
                 </ul>
             ) : null}

@@ -9,14 +9,13 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang="en">
-    <head>
+      <head>
         <title>Scott Zico</title>
         <link rel="icon" type="image/png" href={logo.src}/>
-    </head>
-
-    <body>
-      {children}
-    </body>
+      </head>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
